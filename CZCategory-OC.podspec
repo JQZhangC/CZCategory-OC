@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/JQZhangC/CZCategory-OC.git", :tag => "#{spec.version}" }
 
 
-  spec.source_files  = "CZCategory-OC", "CZCategory-OC/Category/*.{h,m}", "CZCategory-OC/Category/*.h"
+  spec.source_files  = "CZCategory-OC", "CZCategory-OC/Category/*.h"
 
   spec.subspec 'UIColor' do |ss|
     ss.source_files = 'CZCategory-OC/Category/UIColor/*.{h,m}', 'CZCategory-OC/Category/UIColor/*.h'
