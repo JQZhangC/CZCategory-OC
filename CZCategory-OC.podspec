@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
   
   spec.name         = "CZCategory-OC"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.platform     = :ios, "10.0"
   spec.summary      = "iOS OC 开发常用分类"
 # 是否开启ARC

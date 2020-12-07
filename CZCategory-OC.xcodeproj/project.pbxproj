@@ -50,12 +50,12 @@
 		2161AEA2257A5450008A576A /* UIColor+CZRandom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZRandom.m"; sourceTree = "<group>"; };
 		2161AEA5257A554A008A576A /* NSString+CZValidPhoneNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CZValidPhoneNumber.h"; sourceTree = "<group>"; };
 		2161AEA6257A554A008A576A /* NSString+CZValidPhoneNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZValidPhoneNumber.m"; sourceTree = "<group>"; };
-		2161AEAE257B5AFB008A576A /* CZCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZCategory.h; sourceTree = "<group>"; };
 		2161AEB0257B5B3E008A576A /* NSString+CZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CZExtension.h"; sourceTree = "<group>"; };
 		2161AEB4257B5BA5008A576A /* NSNumber+CZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+CZExtension.h"; sourceTree = "<group>"; };
 		2161AEB5257B5BC2008A576A /* UIColor+CZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZExtension.h"; sourceTree = "<group>"; };
 		2161AEB9257B61C4008A576A /* NSDate+CZFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+CZFormatter.h"; sourceTree = "<group>"; };
 		2161AEBA257B61C4008A576A /* NSDate+CZFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CZFormatter.m"; sourceTree = "<group>"; };
+		21C02BDC257DC5E60099D2AD /* Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 		2161AE79257A0762008A576A /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				2161AEAE257B5AFB008A576A /* CZCategory.h */,
+				21C02BDC257DC5E60099D2AD /* Category.h */,
 				2161AE99257A3A6D008A576A /* UIColor */,
 				2161AE98257A3A0B008A576A /* NSDate */,
 				2161AE92257A2799008A576A /* NSNumber */,
