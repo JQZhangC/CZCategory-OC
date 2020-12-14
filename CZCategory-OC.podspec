@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
   
   spec.name         = "CZCategory-OC"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.platform     = :ios, "10.0"
   spec.summary      = "iOS OC 开发常用分类"
 # 是否开启ARC
@@ -30,28 +30,28 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/JQZhangC/CZCategory-OC.git", :tag => "#{spec.version}" }
 
 
-  spec.source_files  = "CZCategory-OC", "CZCategory-OC/Category/*.h"
+  spec.source_files  = "CZCategory-OC", "Category/*.h"
 
   spec.subspec 'UIColor' do |ss|
-    ss.source_files = 'CZCategory-OC/Category/UIColor/*.{h,m}', 'CZCategory-OC/Category/UIColor/*.h'
+    ss.source_files = 'Category/UIColor/*.{h,m}', 'Category/UIColor/*.h'
   end
 
   spec.subspec 'NSString' do |ss|
-    ss.source_files = 'CZCategory-OC/Category/NSString/*.{h,m}', 'CZCategory-OC/Category/NSString/*.h'
+    ss.source_files = 'Category/NSString/*.{h,m}', 'Category/NSString/*.h'
   end
 
   spec.subspec 'NSNumber' do |ss|
-    ss.source_files = 'CZCategory-OC/Category/NSNumber/*.{h,m}', 'CZCategory-OC/Category/NSNumber/*.h'
+    ss.source_files = 'Category/NSNumber/*.{h,m}', 'Category/NSNumber/*.h'
   end
 
   spec.subspec 'NSDate' do |ss|
-    ss.source_files = 'CZCategory-OC/Category/NSDate/*.{h,m}', 'CZCategory-OC/Category/NSDate/*.h'
+    ss.source_files = 'Category/NSDate/*.{h,m}', 'Category/NSDate/*.h'
   end
 
   spec.ios.frameworks = 'Foundation', 'UIKit'
   
   # spec.subspec 'Image' do |ss|
-  #   ss.source_files = 'CZCategory-OC/Category/NSDate/*.{h,m}'
+  #   ss.source_files = 'Category/NSDate/*.{h,m}'
   # end
 
 end

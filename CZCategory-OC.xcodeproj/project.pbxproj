@@ -7,55 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2127178C2587879A0077FAB0 /* UIColor+CZColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 212717782587879A0077FAB0 /* UIColor+CZColor.m */; };
+		2127178D2587879A0077FAB0 /* UIColor+CZRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 212717792587879A0077FAB0 /* UIColor+CZRandom.m */; };
+		2127178E2587879A0077FAB0 /* NSString+CZValidPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 212717802587879A0077FAB0 /* NSString+CZValidPhoneNumber.m */; };
+		2127178F2587879A0077FAB0 /* NSString+CZNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 212717812587879A0077FAB0 /* NSString+CZNumber.m */; };
+		212717902587879A0077FAB0 /* NSString+CZURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 212717822587879A0077FAB0 /* NSString+CZURL.m */; };
+		212717912587879A0077FAB0 /* NSString+CZWhitespace.m in Sources */ = {isa = PBXBuildFile; fileRef = 212717832587879A0077FAB0 /* NSString+CZWhitespace.m */; };
+		212717922587879A0077FAB0 /* NSNumber+CZFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 212717862587879A0077FAB0 /* NSNumber+CZFormatter.m */; };
+		212717932587879A0077FAB0 /* NSDate+CZFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2127178B2587879A0077FAB0 /* NSDate+CZFormatter.m */; };
+		213973252587882C00E27DD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213973242587882C00E27DD2 /* LaunchScreen.storyboard */; };
 		2161AE502579E952008A576A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2161AE4F2579E952008A576A /* AppDelegate.m */; };
 		2161AE562579E952008A576A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2161AE552579E952008A576A /* ViewController.m */; };
-		2161AE592579E952008A576A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2161AE572579E952008A576A /* Main.storyboard */; };
 		2161AE5B2579E953008A576A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2161AE5A2579E953008A576A /* Assets.xcassets */; };
-		2161AE5E2579E953008A576A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2161AE5C2579E953008A576A /* LaunchScreen.storyboard */; };
 		2161AE612579E953008A576A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2161AE602579E953008A576A /* main.m */; };
-		2161AE88257A184D008A576A /* NSString+CZWhitespace.m in Sources */ = {isa = PBXBuildFile; fileRef = 2161AE87257A184D008A576A /* NSString+CZWhitespace.m */; };
-		2161AE8C257A1AEC008A576A /* NSString+CZURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 2161AE8B257A1AEC008A576A /* NSString+CZURL.m */; };
-		2161AE90257A25E8008A576A /* NSString+CZNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 2161AE8F257A25E8008A576A /* NSString+CZNumber.m */; };
-		2161AE95257A27B5008A576A /* NSNumber+CZFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2161AE94257A27B5008A576A /* NSNumber+CZFormatter.m */; };
-		2161AE9F257A4FF7008A576A /* UIColor+CZColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2161AE9E257A4FF7008A576A /* UIColor+CZColor.m */; };
-		2161AEA3257A5450008A576A /* UIColor+CZRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2161AEA2257A5450008A576A /* UIColor+CZRandom.m */; };
-		2161AEA7257A554A008A576A /* NSString+CZValidPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 2161AEA6257A554A008A576A /* NSString+CZValidPhoneNumber.m */; };
-		2161AEB2257B5B85008A576A /* NSString+CZExtension.h in Sources */ = {isa = PBXBuildFile; fileRef = 2161AEB0257B5B3E008A576A /* NSString+CZExtension.h */; };
-		2161AEB7257B5BE6008A576A /* UIColor+CZExtension.h in Sources */ = {isa = PBXBuildFile; fileRef = 2161AEB5257B5BC2008A576A /* UIColor+CZExtension.h */; };
-		2161AEBB257B61C4008A576A /* NSDate+CZFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2161AEBA257B61C4008A576A /* NSDate+CZFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		212717752587879A0077FAB0 /* UIColor+CZRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZRandom.h"; sourceTree = "<group>"; };
+		212717762587879A0077FAB0 /* UIColor+CZColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZColor.h"; sourceTree = "<group>"; };
+		212717772587879A0077FAB0 /* UIColor+CZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZExtension.h"; sourceTree = "<group>"; };
+		212717782587879A0077FAB0 /* UIColor+CZColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZColor.m"; sourceTree = "<group>"; };
+		212717792587879A0077FAB0 /* UIColor+CZRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZRandom.m"; sourceTree = "<group>"; };
+		2127177B2587879A0077FAB0 /* NSString+CZValidPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZValidPhoneNumber.h"; sourceTree = "<group>"; };
+		2127177C2587879A0077FAB0 /* NSString+CZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZExtension.h"; sourceTree = "<group>"; };
+		2127177D2587879A0077FAB0 /* NSString+CZURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZURL.h"; sourceTree = "<group>"; };
+		2127177E2587879A0077FAB0 /* NSString+CZNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZNumber.h"; sourceTree = "<group>"; };
+		2127177F2587879A0077FAB0 /* NSString+CZWhitespace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CZWhitespace.h"; sourceTree = "<group>"; };
+		212717802587879A0077FAB0 /* NSString+CZValidPhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZValidPhoneNumber.m"; sourceTree = "<group>"; };
+		212717812587879A0077FAB0 /* NSString+CZNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZNumber.m"; sourceTree = "<group>"; };
+		212717822587879A0077FAB0 /* NSString+CZURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZURL.m"; sourceTree = "<group>"; };
+		212717832587879A0077FAB0 /* NSString+CZWhitespace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZWhitespace.m"; sourceTree = "<group>"; };
+		212717842587879A0077FAB0 /* CZCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZCategory.h; sourceTree = "<group>"; };
+		212717862587879A0077FAB0 /* NSNumber+CZFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+CZFormatter.m"; sourceTree = "<group>"; };
+		212717872587879A0077FAB0 /* NSNumber+CZExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+CZExtension.h"; sourceTree = "<group>"; };
+		212717882587879A0077FAB0 /* NSNumber+CZFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+CZFormatter.h"; sourceTree = "<group>"; };
+		2127178A2587879A0077FAB0 /* NSDate+CZFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CZFormatter.h"; sourceTree = "<group>"; };
+		2127178B2587879A0077FAB0 /* NSDate+CZFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CZFormatter.m"; sourceTree = "<group>"; };
+		213973242587882C00E27DD2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2161AE4B2579E952008A576A /* CZCategory-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CZCategory-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2161AE4E2579E952008A576A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2161AE4F2579E952008A576A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2161AE542579E952008A576A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2161AE552579E952008A576A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2161AE582579E952008A576A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2161AE5A2579E953008A576A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2161AE5D2579E953008A576A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2161AE5F2579E953008A576A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2161AE602579E953008A576A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2161AE86257A184D008A576A /* NSString+CZWhitespace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CZWhitespace.h"; sourceTree = "<group>"; };
-		2161AE87257A184D008A576A /* NSString+CZWhitespace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZWhitespace.m"; sourceTree = "<group>"; };
-		2161AE8A257A1AEC008A576A /* NSString+CZURL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CZURL.h"; sourceTree = "<group>"; };
-		2161AE8B257A1AEC008A576A /* NSString+CZURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZURL.m"; sourceTree = "<group>"; };
-		2161AE8E257A25E8008A576A /* NSString+CZNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CZNumber.h"; sourceTree = "<group>"; };
-		2161AE8F257A25E8008A576A /* NSString+CZNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZNumber.m"; sourceTree = "<group>"; };
-		2161AE93257A27B5008A576A /* NSNumber+CZFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+CZFormatter.h"; sourceTree = "<group>"; };
-		2161AE94257A27B5008A576A /* NSNumber+CZFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+CZFormatter.m"; sourceTree = "<group>"; };
-		2161AE9D257A4FF7008A576A /* UIColor+CZColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZColor.h"; sourceTree = "<group>"; };
-		2161AE9E257A4FF7008A576A /* UIColor+CZColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZColor.m"; sourceTree = "<group>"; };
-		2161AEA1257A5450008A576A /* UIColor+CZRandom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZRandom.h"; sourceTree = "<group>"; };
-		2161AEA2257A5450008A576A /* UIColor+CZRandom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CZRandom.m"; sourceTree = "<group>"; };
-		2161AEA5257A554A008A576A /* NSString+CZValidPhoneNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CZValidPhoneNumber.h"; sourceTree = "<group>"; };
-		2161AEA6257A554A008A576A /* NSString+CZValidPhoneNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+CZValidPhoneNumber.m"; sourceTree = "<group>"; };
-		2161AEB0257B5B3E008A576A /* NSString+CZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+CZExtension.h"; sourceTree = "<group>"; };
-		2161AEB4257B5BA5008A576A /* NSNumber+CZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+CZExtension.h"; sourceTree = "<group>"; };
-		2161AEB5257B5BC2008A576A /* UIColor+CZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+CZExtension.h"; sourceTree = "<group>"; };
-		2161AEB9257B61C4008A576A /* NSDate+CZFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+CZFormatter.h"; sourceTree = "<group>"; };
-		2161AEBA257B61C4008A576A /* NSDate+CZFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CZFormatter.m"; sourceTree = "<group>"; };
-		21E62A14257DC6C600316B1E /* CZCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CZCategory.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +65,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		212717732587879A0077FAB0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				212717842587879A0077FAB0 /* CZCategory.h */,
+				212717742587879A0077FAB0 /* UIColor */,
+				2127177A2587879A0077FAB0 /* NSString */,
+				212717852587879A0077FAB0 /* NSNumber */,
+				212717892587879A0077FAB0 /* NSDate */,
+			);
+			path = Category;
+			sourceTree = SOURCE_ROOT;
+		};
+		212717742587879A0077FAB0 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				212717772587879A0077FAB0 /* UIColor+CZExtension.h */,
+				212717762587879A0077FAB0 /* UIColor+CZColor.h */,
+				212717782587879A0077FAB0 /* UIColor+CZColor.m */,
+				212717752587879A0077FAB0 /* UIColor+CZRandom.h */,
+				212717792587879A0077FAB0 /* UIColor+CZRandom.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		2127177A2587879A0077FAB0 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				2127177B2587879A0077FAB0 /* NSString+CZValidPhoneNumber.h */,
+				2127177C2587879A0077FAB0 /* NSString+CZExtension.h */,
+				2127177D2587879A0077FAB0 /* NSString+CZURL.h */,
+				2127177E2587879A0077FAB0 /* NSString+CZNumber.h */,
+				2127177F2587879A0077FAB0 /* NSString+CZWhitespace.h */,
+				212717802587879A0077FAB0 /* NSString+CZValidPhoneNumber.m */,
+				212717812587879A0077FAB0 /* NSString+CZNumber.m */,
+				212717822587879A0077FAB0 /* NSString+CZURL.m */,
+				212717832587879A0077FAB0 /* NSString+CZWhitespace.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		212717852587879A0077FAB0 /* NSNumber */ = {
+			isa = PBXGroup;
+			children = (
+				212717862587879A0077FAB0 /* NSNumber+CZFormatter.m */,
+				212717872587879A0077FAB0 /* NSNumber+CZExtension.h */,
+				212717882587879A0077FAB0 /* NSNumber+CZFormatter.h */,
+			);
+			path = NSNumber;
+			sourceTree = "<group>";
+		};
+		212717892587879A0077FAB0 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				2127178A2587879A0077FAB0 /* NSDate+CZFormatter.h */,
+				2127178B2587879A0077FAB0 /* NSDate+CZFormatter.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
 		2161AE422579E952008A576A = {
 			isa = PBXGroup;
 			children = (
@@ -88,77 +143,17 @@
 		2161AE4D2579E952008A576A /* CZCategory-OC */ = {
 			isa = PBXGroup;
 			children = (
-				2161AE79257A0762008A576A /* Category */,
+				212717732587879A0077FAB0 /* Category */,
 				2161AE4E2579E952008A576A /* AppDelegate.h */,
 				2161AE4F2579E952008A576A /* AppDelegate.m */,
 				2161AE542579E952008A576A /* ViewController.h */,
 				2161AE552579E952008A576A /* ViewController.m */,
-				2161AE572579E952008A576A /* Main.storyboard */,
 				2161AE5A2579E953008A576A /* Assets.xcassets */,
-				2161AE5C2579E953008A576A /* LaunchScreen.storyboard */,
 				2161AE5F2579E953008A576A /* Info.plist */,
 				2161AE602579E953008A576A /* main.m */,
+				213973242587882C00E27DD2 /* LaunchScreen.storyboard */,
 			);
 			path = "CZCategory-OC";
-			sourceTree = "<group>";
-		};
-		2161AE79257A0762008A576A /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				21E62A14257DC6C600316B1E /* CZCategory.h */,
-				2161AE99257A3A6D008A576A /* UIColor */,
-				2161AE98257A3A0B008A576A /* NSDate */,
-				2161AE92257A2799008A576A /* NSNumber */,
-				2161AE7A257A0773008A576A /* NSString */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		2161AE7A257A0773008A576A /* NSString */ = {
-			isa = PBXGroup;
-			children = (
-				2161AEB0257B5B3E008A576A /* NSString+CZExtension.h */,
-				2161AE86257A184D008A576A /* NSString+CZWhitespace.h */,
-				2161AE87257A184D008A576A /* NSString+CZWhitespace.m */,
-				2161AE8A257A1AEC008A576A /* NSString+CZURL.h */,
-				2161AE8B257A1AEC008A576A /* NSString+CZURL.m */,
-				2161AE8E257A25E8008A576A /* NSString+CZNumber.h */,
-				2161AE8F257A25E8008A576A /* NSString+CZNumber.m */,
-				2161AEA5257A554A008A576A /* NSString+CZValidPhoneNumber.h */,
-				2161AEA6257A554A008A576A /* NSString+CZValidPhoneNumber.m */,
-			);
-			path = NSString;
-			sourceTree = "<group>";
-		};
-		2161AE92257A2799008A576A /* NSNumber */ = {
-			isa = PBXGroup;
-			children = (
-				2161AEB4257B5BA5008A576A /* NSNumber+CZExtension.h */,
-				2161AE93257A27B5008A576A /* NSNumber+CZFormatter.h */,
-				2161AE94257A27B5008A576A /* NSNumber+CZFormatter.m */,
-			);
-			path = NSNumber;
-			sourceTree = "<group>";
-		};
-		2161AE98257A3A0B008A576A /* NSDate */ = {
-			isa = PBXGroup;
-			children = (
-				2161AEB9257B61C4008A576A /* NSDate+CZFormatter.h */,
-				2161AEBA257B61C4008A576A /* NSDate+CZFormatter.m */,
-			);
-			path = NSDate;
-			sourceTree = "<group>";
-		};
-		2161AE99257A3A6D008A576A /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				2161AEB5257B5BC2008A576A /* UIColor+CZExtension.h */,
-				2161AE9D257A4FF7008A576A /* UIColor+CZColor.h */,
-				2161AE9E257A4FF7008A576A /* UIColor+CZColor.m */,
-				2161AEA1257A5450008A576A /* UIColor+CZRandom.h */,
-				2161AEA2257A5450008A576A /* UIColor+CZRandom.m */,
-			);
-			path = UIColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,9 +212,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2161AE5E2579E953008A576A /* LaunchScreen.storyboard in Resources */,
 				2161AE5B2579E953008A576A /* Assets.xcassets in Resources */,
-				2161AE592579E952008A576A /* Main.storyboard in Resources */,
+				213973252587882C00E27DD2 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,42 +224,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2161AEB7257B5BE6008A576A /* UIColor+CZExtension.h in Sources */,
-				2161AEB2257B5B85008A576A /* NSString+CZExtension.h in Sources */,
-				2161AE9F257A4FF7008A576A /* UIColor+CZColor.m in Sources */,
-				2161AEA7257A554A008A576A /* NSString+CZValidPhoneNumber.m in Sources */,
-				2161AEBB257B61C4008A576A /* NSDate+CZFormatter.m in Sources */,
-				2161AE90257A25E8008A576A /* NSString+CZNumber.m in Sources */,
+				2127178C2587879A0077FAB0 /* UIColor+CZColor.m in Sources */,
+				2127178E2587879A0077FAB0 /* NSString+CZValidPhoneNumber.m in Sources */,
+				212717932587879A0077FAB0 /* NSDate+CZFormatter.m in Sources */,
 				2161AE562579E952008A576A /* ViewController.m in Sources */,
-				2161AEA3257A5450008A576A /* UIColor+CZRandom.m in Sources */,
+				2127178D2587879A0077FAB0 /* UIColor+CZRandom.m in Sources */,
 				2161AE502579E952008A576A /* AppDelegate.m in Sources */,
-				2161AE95257A27B5008A576A /* NSNumber+CZFormatter.m in Sources */,
 				2161AE612579E953008A576A /* main.m in Sources */,
-				2161AE88257A184D008A576A /* NSString+CZWhitespace.m in Sources */,
-				2161AE8C257A1AEC008A576A /* NSString+CZURL.m in Sources */,
+				212717912587879A0077FAB0 /* NSString+CZWhitespace.m in Sources */,
+				212717902587879A0077FAB0 /* NSString+CZURL.m in Sources */,
+				2127178F2587879A0077FAB0 /* NSString+CZNumber.m in Sources */,
+				212717922587879A0077FAB0 /* NSNumber+CZFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		2161AE572579E952008A576A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2161AE582579E952008A576A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2161AE5C2579E953008A576A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2161AE5D2579E953008A576A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2161AE622579E953008A576A /* Debug */ = {
