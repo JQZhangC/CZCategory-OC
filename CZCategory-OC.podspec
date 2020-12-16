@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
   
   spec.name         = "CZCategory-OC"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.5"
   spec.platform     = :ios, "10.0"
   spec.summary      = "iOS OC 开发常用分类"
 # 是否开启ARC
@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/JQZhangC/CZCategory-OC.git", :tag => "#{spec.version}" }
 
 
-  spec.source_files  = "CZCategory-OC", "Category/*.h"
+  spec.source_files  = "Category", "Category/*.h"
 
   spec.subspec 'UIColor' do |ss|
     ss.source_files = 'Category/UIColor/*.{h,m}', 'Category/UIColor/*.h'
@@ -47,6 +47,11 @@ Pod::Spec.new do |spec|
   spec.subspec 'NSDate' do |ss|
     ss.source_files = 'Category/NSDate/*.{h,m}', 'Category/NSDate/*.h'
   end
+
+  spec.subspec 'UIImage' do |ss|
+    ss.source_files = 'Category/UIImage/*.{h,m}', 'Category/UIImage/*.h'
+  end
+
 
   spec.ios.frameworks = 'Foundation', 'UIKit'
   

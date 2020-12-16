@@ -16,10 +16,15 @@
 		212717922587879A0077FAB0 /* NSNumber+CZFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 212717862587879A0077FAB0 /* NSNumber+CZFormatter.m */; };
 		212717932587879A0077FAB0 /* NSDate+CZFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2127178B2587879A0077FAB0 /* NSDate+CZFormatter.m */; };
 		213973252587882C00E27DD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 213973242587882C00E27DD2 /* LaunchScreen.storyboard */; };
+		21397348258795DC00E27DD2 /* CZCategory.h in Sources */ = {isa = PBXBuildFile; fileRef = 212717842587879A0077FAB0 /* CZCategory.h */; };
+		2139734A258795F200E27DD2 /* UIColor+CZExtension.h in Sources */ = {isa = PBXBuildFile; fileRef = 212717772587879A0077FAB0 /* UIColor+CZExtension.h */; };
+		2139734C258795F700E27DD2 /* NSString+CZExtension.h in Sources */ = {isa = PBXBuildFile; fileRef = 2127177C2587879A0077FAB0 /* NSString+CZExtension.h */; };
+		2139734E258795FA00E27DD2 /* NSNumber+CZExtension.h in Sources */ = {isa = PBXBuildFile; fileRef = 212717872587879A0077FAB0 /* NSNumber+CZExtension.h */; };
 		2161AE502579E952008A576A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2161AE4F2579E952008A576A /* AppDelegate.m */; };
 		2161AE562579E952008A576A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2161AE552579E952008A576A /* ViewController.m */; };
 		2161AE5B2579E953008A576A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2161AE5A2579E953008A576A /* Assets.xcassets */; };
 		2161AE612579E953008A576A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2161AE602579E953008A576A /* main.m */; };
+		21CA99D0258A24A500657F09 /* UIImage+CZColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CA99CF258A24A500657F09 /* UIImage+CZColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +57,9 @@
 		2161AE5A2579E953008A576A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2161AE5F2579E953008A576A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2161AE602579E953008A576A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21CA99CE258A24A500657F09 /* UIImage+CZColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CZColor.h"; sourceTree = "<group>"; };
+		21CA99CF258A24A500657F09 /* UIImage+CZColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CZColor.m"; sourceTree = "<group>"; };
+		21CA99D3258A251800657F09 /* UIImage+CZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CZExtension.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,7 @@
 				212717742587879A0077FAB0 /* UIColor */,
 				2127177A2587879A0077FAB0 /* NSString */,
 				212717852587879A0077FAB0 /* NSNumber */,
+				21CA99CD258A248B00657F09 /* UIImage */,
 				212717892587879A0077FAB0 /* NSDate */,
 			);
 			path = Category;
@@ -156,6 +165,16 @@
 			path = "CZCategory-OC";
 			sourceTree = "<group>";
 		};
+		21CA99CD258A248B00657F09 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				21CA99CE258A24A500657F09 /* UIImage+CZColor.h */,
+				21CA99CF258A24A500657F09 /* UIImage+CZColor.m */,
+				21CA99D3258A251800657F09 /* UIImage+CZExtension.h */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -224,6 +243,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2139734E258795FA00E27DD2 /* NSNumber+CZExtension.h in Sources */,
+				2139734C258795F700E27DD2 /* NSString+CZExtension.h in Sources */,
+				2139734A258795F200E27DD2 /* UIColor+CZExtension.h in Sources */,
+				21397348258795DC00E27DD2 /* CZCategory.h in Sources */,
+				21CA99D0258A24A500657F09 /* UIImage+CZColor.m in Sources */,
 				2127178C2587879A0077FAB0 /* UIColor+CZColor.m in Sources */,
 				2127178E2587879A0077FAB0 /* NSString+CZValidPhoneNumber.m in Sources */,
 				212717932587879A0077FAB0 /* NSDate+CZFormatter.m in Sources */,

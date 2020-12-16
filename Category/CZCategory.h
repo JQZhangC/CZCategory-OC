@@ -8,3 +8,4 @@
 #import "NSString+CZExtension.h"
 #import "UIColor+CZExtension.h"
 #import "NSNumber+CZExtension.h"
+#import "UIImage+CZExtension.h"
