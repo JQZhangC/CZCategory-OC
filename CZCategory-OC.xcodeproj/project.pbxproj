@@ -24,6 +24,7 @@
 		2161AE562579E952008A576A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2161AE552579E952008A576A /* ViewController.m */; };
 		2161AE5B2579E953008A576A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2161AE5A2579E953008A576A /* Assets.xcassets */; };
 		2161AE612579E953008A576A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2161AE602579E953008A576A /* main.m */; };
+		217D97CB258C3EF400FC77A4 /* UIImage+CZImageFromView.m in Sources */ = {isa = PBXBuildFile; fileRef = 217D97CA258C3EF400FC77A4 /* UIImage+CZImageFromView.m */; };
 		21CA99D0258A24A500657F09 /* UIImage+CZColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 21CA99CF258A24A500657F09 /* UIImage+CZColor.m */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,8 @@
 		2161AE5A2579E953008A576A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2161AE5F2579E953008A576A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2161AE602579E953008A576A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		217D97C9258C3EF400FC77A4 /* UIImage+CZImageFromView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CZImageFromView.h"; sourceTree = "<group>"; };
+		217D97CA258C3EF400FC77A4 /* UIImage+CZImageFromView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CZImageFromView.m"; sourceTree = "<group>"; };
 		21CA99CE258A24A500657F09 /* UIImage+CZColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CZColor.h"; sourceTree = "<group>"; };
 		21CA99CF258A24A500657F09 /* UIImage+CZColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CZColor.m"; sourceTree = "<group>"; };
 		21CA99D3258A251800657F09 /* UIImage+CZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+CZExtension.h"; sourceTree = "<group>"; };
@@ -171,6 +174,8 @@
 				21CA99CE258A24A500657F09 /* UIImage+CZColor.h */,
 				21CA99CF258A24A500657F09 /* UIImage+CZColor.m */,
 				21CA99D3258A251800657F09 /* UIImage+CZExtension.h */,
+				217D97C9258C3EF400FC77A4 /* UIImage+CZImageFromView.h */,
+				217D97CA258C3EF400FC77A4 /* UIImage+CZImageFromView.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 				21397348258795DC00E27DD2 /* CZCategory.h in Sources */,
 				21CA99D0258A24A500657F09 /* UIImage+CZColor.m in Sources */,
 				2127178C2587879A0077FAB0 /* UIColor+CZColor.m in Sources */,
+				217D97CB258C3EF400FC77A4 /* UIImage+CZImageFromView.m in Sources */,
 				2127178E2587879A0077FAB0 /* NSString+CZValidPhoneNumber.m in Sources */,
 				212717932587879A0077FAB0 /* NSDate+CZFormatter.m in Sources */,
 				2161AE562579E952008A576A /* ViewController.m in Sources */,

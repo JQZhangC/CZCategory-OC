@@ -6,3 +6,4 @@
 //
 
 #import "UIImage+CZColor.h"
+#import "UIImage+CZImageFromView.h"
